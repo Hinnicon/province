@@ -1,0 +1,39 @@
+/* ทำสีตัวอักษรสีพื้นหลัง และจุดไข่ปลา จากข้างนอกสู่เว็บหลัง */
+
+body{
+    background-color: beige;
+}
+/* กำหนดไข่ปลา */
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(255, 127, 127);
+    border-width: 5px;
+    width:10%;
+}
+h1{
+ color: rgb(144, 127, 255);
+}
+p{
+    color: blueviolet;
+}
+img{
+    background-color: blue;
+}
+
+/* 2. class selector */
+.broccoli{
+    background-color: brown;
+}
+.circular{
+    border-radius: 100%;
+}
+#heading{
+    color:red;
+}
+h2{
+    color: hsl(243, 100%, 50%);
+}
+h3{
+    color: #ff7700;
+}
